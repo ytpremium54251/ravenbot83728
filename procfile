@@ -1,0 +1,10 @@
+PyTelegramBotAPI
+python-telegram-bot==21.0.1
+aiohttp==3.9.5
+requests==2.32.3
+python-telegram-bot
+gTTS
+python-dotenv
+requests
+aiohttp
+httpx
