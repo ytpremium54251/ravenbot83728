@@ -728,7 +728,7 @@ async def ichk_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
 𝗖𝗼𝘂𝗻𝘁𝗿𝘆: GERMANY 🇩🇪"""
     await loading.edit_text(msg, parse_mode="HTML")
 
- ✅️✅️ ((TEXTING TOO SPEECH COMMANDING)) ✅️✅️
+# ✅️✅️ ((TEXTING TOO SPEECH COMMANDING)) ✅️✅️
 async def speech_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if not context.args:
         await update.message.reply_text("<b>Examplez: </b><code>/speech Hi! How Can I Help You Today?</code>", reply_to_message_id=update.message.message_id, parse_mode="HTML")
