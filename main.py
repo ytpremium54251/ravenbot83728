@@ -32,7 +32,7 @@ from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import CallbackQueryHandler
 
 # ✅️✅️ ((SETTING YOUR TELEGRAM ROBOTZ TOKENS HERE)) ✅️✅️
-((TELEGRAM_ROBOTZ_TOKENS)) = (("8527631955:AAFxefvH0sueYhwTF9G8wwFaFNOObBcLUis"))
+((TELEGRAM_ROBOTZ_TOKENS)) = (("8510824809:AAFccOT4VanMuQxzdz2RdW3ZxcWpBW4d5ec"))
 
 # ✅️✅️ ((AUTHORIZATION RESPONSE AND WEIGHTED COMMANDING)) ✅️✅️
 def weighted_approval(chance_approved=10):
