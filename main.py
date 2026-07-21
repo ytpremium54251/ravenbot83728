@@ -359,7 +359,7 @@ async def mass_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
         return
 
     output = []
-    cards = [c.strip() for c in raw_cards if c.strip() and '|' in c][:5]
+    cards = [c.strip() for c in raw_cards if c.strip() and '|' in c][:3]
 
     for card_info in cards:
         if not is_valid_cc_format(card_info):
@@ -367,7 +367,7 @@ async def mass_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
             return
 
     loading = await update.message.reply_text(f"𝗣𝗿𝗼𝗰𝗲𝘀𝘀𝗶𝗻𝗴 𝘆𝗼𝘂𝗿 𝗿𝗲𝗾𝘂𝗲𝘀𝘁......", reply_to_message_id=update.message.message_id)
-    SLEEP_MASS = (30)
+    SLEEP_MASS = (25)
     await asyncio.sleep(SLEEP_MASS)
 
     for card_info in cards:
